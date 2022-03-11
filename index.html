@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+     <div  class ="container">
+         <img src ="back.jpg"class ="img">
+         <div  class ="data">
+          <input type ="textbox" class ="text" id ="username " placeholder ="UserName">
+        <input type="password" class="text" id="password" placeholder="Password">
+        <button  type="submit" class="btn" id = "btns" >Login</button>
+        <button type="submit" class="btn" id="btnsf">Forgot Password</button>
+
+
+         </div>
+     </div>
+    <script>
+        document.getElementById("btns").onclick =function(){
+            location.href ="./login.html";
+        }
+        document.getElementById("btnsf").onclick =function(){
+            location.href ="./forgotpswrd.html";
+        }
+    </script>
+</body>
+</html>
